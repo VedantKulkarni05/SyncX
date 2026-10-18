@@ -1,0 +1,30 @@
+:root {
+  --bg: #20201f;
+  --surface: #2a2a28;
+  --surface-2: #343432;
+  --border: #3d3d3a;
+  --text: #f2ede8;
+  --text-muted: #9a9893;
+  --accent: #ee6e4d;
+  --accent-soft: rgba(238, 110, 77, 0.14);
+  --danger: #9d5b50;
+  --accent-gradient: linear-gradient(115deg, #ee6e4d 0%, #20201f 145%);
+  --radius-card: 12px;
+  --radius-control: 10px;
+  --shadow-card: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Cormorant Garamond', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
